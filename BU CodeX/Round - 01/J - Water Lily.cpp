@@ -9,7 +9,8 @@ int32_t main() {
     cin.tie(NULL);
     
     int h, l; cin >> h >> l;
-    double ans = ((l*l) - (h*h)) / (2.0*h);
+    double ans = ((1.0*l*l) - (1.0*h*h)) / (2.0*h);
     cout << fixed << setprecision(7) << ans <<"\n";
     return 0;
 }
+
