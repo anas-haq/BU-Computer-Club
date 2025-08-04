@@ -7,9 +7,9 @@ int32_t main() {
     ios::sync_with_stdio(false);
     cin.tie(NULL);
 
-    string a[11] = {"zero","one","two","three","four","five","six","seven","eight","nine","ten"};
-	string b[11] = {"","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"};
-	string c[11] = {"","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"};
+    	string a[13] = {"zero","one","two","three","four","five","six","seven","eight","nine","ten"};
+	string b[13] = {"","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"};
+	string c[13] = {"","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"};
 	
 	int n; cin >> n;
 
@@ -28,3 +28,4 @@ int32_t main() {
     
     return 0;
 }
+
